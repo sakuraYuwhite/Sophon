@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的授权码.授权码请关注公众号 互联万事屋 获取",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -73,7 +73,6 @@ const cn = {
         cn: "简体中文",
         en: "English",
         tw: "繁體中文",
-        fr: "Français",
         es: "Español",
         it: "Italiano",
         tr: "Türkçe",
@@ -171,7 +170,13 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: `前往公众号：**[互联万事屋](你的公众号跳转链接)** 回复 **授权码get** 免费获取授权码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。
+ **提问：** 你可以在这里放一些常用问题吗？
+ **回答：** 当然可以，还可以在这里放一些问题解答，太棒啦！
+ 常见问题与使用说明点击查看 **[你可以在这里放个腾讯文档链接](腾讯文档链接)** 
+卡顿或无响应？可能是用户量太大， [点这里获得独立账号 KEY 使用](你的卖 key 链接)
+欢迎来聊聊  [QQ群](你的 Q 群链接) 或  [公众号](你的公众号跳转链接)
+![图片]( /wx.png)`, // 这里是第 172 行
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
