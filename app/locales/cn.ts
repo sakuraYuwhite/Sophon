@@ -172,7 +172,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "有什么可以帮你的吗？这是一个[链接](https://the.top/sakura/)。\n\n这是一张图片[图片说明](图片地址)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
